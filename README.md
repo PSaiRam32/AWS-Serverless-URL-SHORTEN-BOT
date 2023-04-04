@@ -20,5 +20,10 @@ Architecture:
 
 ![URL BOT Architecture](https://user-images.githubusercontent.com/87435344/229689302-86bfc49d-33cb-4f7d-9bfb-e0288ddf0c40.png)
 
+Architectural Flow:
+
+If the user Enters a very long URL then you need to return a very short URL, you can use this specific CleanUri API. You would call this API using Python code that is running in Lambda, then shorten the user-shared URL. Once you receive the response, you would push it from Lambda to our Telegram server, where the user could obtain the short format of the URL.
+
+
 Bot Link:https://t.me/CSCAWSbot
 
