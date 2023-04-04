@@ -8,8 +8,6 @@ Serverless is a cloud-native development model that refers to serverless applica
 
 Services Used for Fabricating:
 
-I have used 3 different Services to develop the Bot:
-
 1)AWS Lambda
 
 2)AWS API Gateway
